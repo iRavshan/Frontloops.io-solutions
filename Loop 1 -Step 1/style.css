@@ -1,0 +1,81 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #85A5D4;
+}
+
+.root{
+    display: flex;
+    margin: 150px auto;
+    padding: 10px;
+    width: 70%;
+    background: #fff;
+    border-radius: 5px;
+}
+
+.root-card{
+    display: inline-block;
+    width: 33.33%;
+    padding: 15px 44px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    text-align: center;
+    transition: all 0.15s ease-in;
+}
+
+.root-card:hover{
+    cursor: pointer;
+    background: #FAFAFA;
+}
+
+.root-card-img{
+    margin-top: 17px;
+    width: 80px;
+    height: 80px;
+}
+
+.root-card h3{
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #5572D6;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+.root-title{
+    color: #AFADAE;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.root-subtitle{
+    font-size: 13px;
+    font-weight: 600;
+    color: #5572D6;
+}
+
+.root-subtitle sup{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+}
+
+.root-subtitle span{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 33px;
+    font-weight: 600;
+}
+
+@media screen and (max-width: 650px){
+    .root{
+        margin: 28px auto;
+        width: 100%;
+        padding: 0px;
+        display: block;
+    }
+
+    .root-card{
+        margin:auto;
+        width: 100%;
+    }
+}
