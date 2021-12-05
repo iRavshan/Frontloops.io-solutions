@@ -1,0 +1,104 @@
+body{
+    font-family: sans-serif;
+    background: url('img/background.jpg') no-repeat center;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+.circle{
+    margin: 17px 3px 10px 3px;
+    text-align: center;
+    display: inline-block;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: #DEDEDE;
+}
+
+.active-icon{
+    background: #AAAAAA;
+}
+
+.cards{
+    padding-top: 13px;
+    text-align: center;
+    border-radius: 5px;
+    width: 30%;
+    margin: auto;
+    background: #fff;
+    margin-top: 60px;
+}
+
+.title{
+    margin-top: 15px;
+    margin-bottom: 30px;
+    color: #333333;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.card{
+    text-align: left;
+    border: 0.1rem solid #DEDEDE;
+    padding: 5px 23px 5px 35px;
+    box-sizing: border-box;
+}
+
+.mastercard{
+    border: transparent;
+}
+
+.logo{
+    margin-bottom: 7px;
+    vertical-align: middle;
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+}
+
+.card p{
+    margin-left: 22px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #B7ADAA;
+    display: inline-block;
+}
+
+.check{
+    margin-top: 13px;
+    float: right;
+    vertical-align: middle;
+    width: 21px;
+    height: 21px;
+    margin-bottom: 7px;
+}
+
+.active p{
+    color: black;
+}
+
+.card-btn{
+    letter-spacing: 1px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    width: 100%;
+    cursor: pointer;
+    border: transparent;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    background: #598BDD;
+}
+
+
+.card-btn img{
+    width:21px;
+    margin-left: 3px;
+    vertical-align: middle;
+}
